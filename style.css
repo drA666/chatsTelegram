@@ -1,0 +1,149 @@
+body {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+form,
+p,
+span {
+    margin: 0;
+    padding: 0px 23px;
+}
+
+input {
+    font: 12px arial;
+    height: 35px;
+    width: 90px;
+    cursor: pointer;
+    transition: all 0.5s ease 0.2s;
+    background: rgb(227 236 242);
+    color: rgb(14, 13, 13);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    outline: none;
+}
+
+input:hover {
+    background-color: rgb(86, 227, 126);
+}
+
+a {
+    background-color: black;
+    color: rgb(244 243 243);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#wrapper,
+#loginform {
+    margin: 200px 500px;
+    padding-bottom: 25px;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    width: 700px;
+    border: 1px solid #100f0f;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,1)
+}
+
+#loginform {
+    padding-top: 18px;
+}
+
+#loginform p {
+    margin: 5px;
+}
+
+#chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background: rgb(227 236 242);
+    height: 550px;
+    width: 90%;
+    border: 3px solid #16ce16;
+    overflow: auto;
+    box-shadow: 3px 3px #3bea14, -1em 0 .4em #28d7d7;
+}
+
+#form input[name="usermsg"] {
+    width: 550px;
+    height: 30px;
+    border: 1px solid #ACD8F0;
+    border-radius: 10px;
+    background: rgb(227 236 242);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+#submit {
+    width: 60px;
+}
+
+.error {
+    color: #b45d5d;
+}
+
+#menu {
+    padding: 12.5px 25px 12.5px 25px;
+    margin: 4px;
+}
+
+#menu :last-child {}
+
+.number {
+    color: white;
+    margin-left: 50%;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: #152922;
+    width: 0px;
+    border-radius: 50%;
+}
+
+.welcome {
+    float: left;
+    background-color: #070707;
+    border-radius: 10px;
+    color: white;
+    margin: 3px;
+}
+
+.logout {
+    float: right;
+}
+
+.msgln {
+    margin: 0 0 2px 0;
+}
+
+.message {
+    background-color: #287cb3;
+    text-align: left;
+    margin: 10px 50% 0 0;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.message.admin {
+    color: blanchedalmond;
+    color: #eee957;
+    margin: 10px 0 0 50%;
+}
+
+.message .user-name {
+    color: rgb(240, 233, 233);
+    margin-right: 50%;
+}
+
+.message .text {
+    font-size: 28px;
+    color: #eee957;
+}
+
+.message b {}
+
+.message .user-name {}
